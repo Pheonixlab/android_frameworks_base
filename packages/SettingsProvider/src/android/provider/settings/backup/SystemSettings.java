@@ -91,5 +91,7 @@ public class SystemSettings {
         Settings.System.AMBIENT_NOTIFICATION_LIGHT,
         Settings.System.AMBIENT_NOTIFICATION_LIGHT_AUTOMATIC,
         Settings.System.NOTIFICATION_LIGHT_PULSE,
+        Settings.System.NETWORK_TRAFFIC_STATE,
+        Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD,
     };
 }
