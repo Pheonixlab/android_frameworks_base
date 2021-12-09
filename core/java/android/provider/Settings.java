@@ -5606,6 +5606,12 @@ public final class Settings {
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
         /**
+         * Whether StatusBar icons should use app icon
+         * @hide
+         */
+        public static final String STATUSBAR_ICONS_STYLE = "statusbar_icons_style";
+
+        /**
           * Statusbar Battery %
           * 0: Hide the battery percentage
           * 1: Display the battery percentage inside the icon
@@ -5744,6 +5750,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(CALL_CONNECTED_TONE_ENABLED);
             PRIVATE_SETTINGS.add(AMBIENT_NOTIFICATION_LIGHT);
             PRIVATE_SETTINGS.add(AMBIENT_NOTIFICATION_LIGHT_AUTOMATIC);
+            PRIVATE_SETTINGS.add(STATUSBAR_ICONS_STYLE);
         }
 
         /**
