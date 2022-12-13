@@ -36,4 +36,7 @@
 
     <!-- Udfps vendor code -->
     <integer name="config_udfpsVendorCode">-1</integer>
+
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">-1</integer>
 </resources>
