@@ -7440,5 +7440,8 @@ message MetricsEvent {
 
     // 404 Constants
     ERROR = 1800;
+
+    // 404Lab constant
+    P404 = 1999;
   }
 }
