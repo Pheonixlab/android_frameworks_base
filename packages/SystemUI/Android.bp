@@ -122,6 +122,7 @@ android_library {
         "dagger2",
         "jsr330",
         "lottie",
+	"VendorSupport-Libs",
         "bcsmartspace-google",
         "faceunlock_framework",
     ],
